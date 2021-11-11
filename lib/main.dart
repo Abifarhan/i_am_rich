@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 // reformat code
 void main() {
   runApp(
-    const MaterialApp(
-      home: Center(
-        child: Text('Hello World'),
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("I Am Rich"),
+        ),
       ),
     ),
   );
