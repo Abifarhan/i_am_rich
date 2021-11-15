@@ -9,7 +9,8 @@ void main() {
             child: Column(
           // mainAxisSize: MainAxisSize.min,
           //     verticalDirection: VerticalDirection.down,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
             Container(
               height: 100.0,
