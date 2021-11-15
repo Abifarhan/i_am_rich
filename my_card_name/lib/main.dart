@@ -4,8 +4,13 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blue,
-        body: Container(),
+        backgroundColor: Colors.teal,
+        body: SafeArea(
+          child: Container(
+            color: Colors.white,
+            child: const Text('Hello'),
+          )
+        ),
       ),
     ),
   );
