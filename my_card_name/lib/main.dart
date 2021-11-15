@@ -14,7 +14,7 @@ void main() {
             children: <Widget>[
               Container(
                 // height: 100.0,
-                // width: double.infinity,
+                width: 30.0,
 // margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 10.0),
 // margin: EdgeInsets.fromLTRB(30.0, 10.0, 50.0, 20.0),
 // margin: EdgeInsets.only(left: 30.0),
@@ -23,18 +23,18 @@ void main() {
                 child: const Text('Container 1'),
               ),
               SizedBox(
-                height: 20.0,
+                width: 30.0,
 
               ),
               Container(
-                // width: double.infinity,
+                width: 30.0,
                 // height: 100.0,
                 // margin: EdgeInsets.only(top: 20.0),
                 color: Colors.blue,
                 child: Text('Hello this is container 2'),
               ),
               Container(
-                // width: double.infinity,
+                width: 30.0,
                 // height: 100.0,
                 // margin: EdgeInsets.only(top: 20.0),
                 color: Colors.redAccent,
