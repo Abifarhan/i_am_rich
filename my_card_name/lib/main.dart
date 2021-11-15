@@ -8,7 +8,8 @@ void main() {
         body: SafeArea(
             child: Column(
           // mainAxisSize: MainAxisSize.min,
-              verticalDirection: VerticalDirection.down,
+          //     verticalDirection: VerticalDirection.down,
+              mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Container(
               height: 100.0,
