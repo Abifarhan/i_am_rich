@@ -9,7 +9,8 @@ void main() {
           child: Container(
             height: 100.0,
             width: 100.0,
-            margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 10.0),
+            // margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 10.0),
+            margin: EdgeInsets.fromLTRB(30.0, 10.0, 50.0, 20.0),
             color: Colors.white,
             child: const Text('Hello'),
           )
