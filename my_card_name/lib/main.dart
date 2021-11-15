@@ -22,17 +22,21 @@ void main() {
                 color: Colors.white,
                 child: const Text('Container 1'),
               ),
+              SizedBox(
+                height: 20.0,
+
+              ),
               Container(
                 width: double.infinity,
                 height: 100.0,
-                margin: EdgeInsets.only(top: 20.0),
+                // margin: EdgeInsets.only(top: 20.0),
                 color: Colors.blue,
                 child: Text('Hello this is container 2'),
               ),
               Container(
                 width: double.infinity,
                 height: 100.0,
-                margin: EdgeInsets.only(top: 20.0),
+                // margin: EdgeInsets.only(top: 20.0),
                 color: Colors.redAccent,
                 child: Text('Hello this is container 3'),
               )
