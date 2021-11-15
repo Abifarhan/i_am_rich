@@ -9,23 +9,25 @@ void main() {
           child: Row(
             // mainAxisSize: MainAxisSize.min,
             //     verticalDirection: VerticalDirection.down,
-            //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              Container(
-                // height: 100.0,
-                width: 30.0,
+              Expanded(
+                  child:Container(
+                    // height: 100.0,
+                    width: 100.0,
 // margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 10.0),
 // margin: EdgeInsets.fromLTRB(30.0, 10.0, 50.0, 20.0),
 // margin: EdgeInsets.only(left: 30.0),
 // padding: EdgeInsets.all(20.0),
-                color: Colors.white,
-                child: const Text('Container 1'),
-              ),
-              SizedBox(
-                width: 30.0,
-
-              ),
+                    color: Colors.red,
+                    child: const Text('Container 1'),
+                  )
+              )
+              ,
+              // SizedBox(
+              //   width: 30.0,
+              // ),
               Container(
                 width: 30.0,
                 // height: 100.0,
