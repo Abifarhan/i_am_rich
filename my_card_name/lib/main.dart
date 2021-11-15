@@ -35,6 +35,9 @@ void main() {
               margin: EdgeInsets.only(top: 20.0),
               color: Colors.redAccent,
               child: Text('Hello this is container 3'),
+            ),
+            Container(
+              width: double.infinity,
             )
           ],
         )),
