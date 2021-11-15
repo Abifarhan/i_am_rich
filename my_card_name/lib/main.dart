@@ -6,22 +6,40 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Container(
-            height: 100.0,
-            width: 100.0,
-            // margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 10.0),
-            // margin: EdgeInsets.fromLTRB(30.0, 10.0, 50.0, 20.0),
-            margin: EdgeInsets.only(left: 30.0),
-            padding: EdgeInsets.all(20.0),
-            color: Colors.white,
-            child: const Text('Hello'),
-          )
-        ),
+            child: Column(
+          // mainAxisSize: MainAxisSize.min,
+              verticalDirection: VerticalDirection.up,
+          children: <Widget>[
+            Container(
+              height: 100.0,
+              width: 100.0,
+// margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 10.0),
+// margin: EdgeInsets.fromLTRB(30.0, 10.0, 50.0, 20.0),
+// margin: EdgeInsets.only(left: 30.0),
+// padding: EdgeInsets.all(20.0),
+              color: Colors.white,
+              child: const Text('Container 1'),
+            ),
+            Container(
+              width: 100.0,
+              height: 100.0,
+              margin: EdgeInsets.only(top: 20.0),
+              color: Colors.blue,
+              child: Text('Hello this is container 2'),
+            ),
+            Container(
+              width: 100.0,
+              height: 100.0,
+              margin: EdgeInsets.only(top: 20.0),
+              color: Colors.redAccent,
+              child: Text('Hello this is container 3'),
+            )
+          ],
+        )),
       ),
     ),
   );
 }
-
 
 // class  extends StatelessWidget {
 //   const ({Key? key}) : super(key: key);
@@ -30,6 +48,3 @@ void main() {
 //     return Container();
 //   }
 // }
-
-
-
