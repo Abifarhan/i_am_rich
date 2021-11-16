@@ -16,6 +16,7 @@ void main() {
               Text(
                 "Abi Farhan",
                 style: TextStyle(
+                  fontFamily: "ShipporiAntique",
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
