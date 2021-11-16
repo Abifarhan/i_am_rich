@@ -31,4 +31,8 @@ flutter:
   fonts:
   - family: ShipporiAntique
     fonts:
-    - asset: fonts/ShipporiAntique-Regular.ttf
+      - asset: fonts/ShipporiAntique-Regular.ttf
+
+  - family: Praise
+    fonts:
+      - asset: fonts/Praise-Regular.ttf
