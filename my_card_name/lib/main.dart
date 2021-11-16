@@ -21,6 +21,15 @@ void main() {
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
+              ),
+              Text(
+                "Mobile Developer",
+                style: TextStyle(
+                  fontFamily: "ShipporiAntique",
+                  fontSize: 20.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
+                ),
               )
             ],
           ),
