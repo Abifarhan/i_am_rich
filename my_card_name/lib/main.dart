@@ -27,7 +27,7 @@ void main() {
                 style: TextStyle(
                   fontFamily: "ShipporiAntique",
                   fontSize: 20.0,
-                  color: Colors.teal[100],
+                  color: Colors.teal.shade100,
                   fontWeight: FontWeight.bold
                 ),
               )
