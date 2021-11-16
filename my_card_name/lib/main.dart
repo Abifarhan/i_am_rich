@@ -10,9 +10,12 @@ void main() {
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundColor: Colors.red,
+                // backgroundColor: Colors.red,
                 backgroundImage: NetworkImage("https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png"),
               ),
+              Text(
+                "Abi Farhan"
+              )
             ],
           ),
 //           child: Row(
