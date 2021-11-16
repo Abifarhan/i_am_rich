@@ -28,7 +28,8 @@ void main() {
                   fontFamily: "ShipporiAntique",
                   fontSize: 20.0,
                   color: Colors.teal.shade100,
-                  fontWeight: FontWeight.bold
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 2.5,
                 ),
               )
             ],
