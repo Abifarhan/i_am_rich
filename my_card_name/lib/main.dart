@@ -10,6 +10,7 @@ void main() {
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
+                backgroundColor: Colors.red,
               ),
             ],
           ),
