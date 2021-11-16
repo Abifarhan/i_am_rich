@@ -14,7 +14,12 @@ void main() {
                 backgroundImage: NetworkImage("https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png"),
               ),
               Text(
-                "Abi Farhan"
+                "Abi Farhan",
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               )
             ],
           ),
