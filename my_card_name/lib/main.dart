@@ -11,6 +11,7 @@ void main() {
               CircleAvatar(
                 radius: 50.0,
                 backgroundColor: Colors.red,
+                backgroundImage: NetworkImage("https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png"),
               ),
             ],
           ),
