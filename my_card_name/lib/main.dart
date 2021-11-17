@@ -11,7 +11,8 @@ void main() {
               CircleAvatar(
                 radius: 50.0,
                 // backgroundColor: Colors.red,
-                backgroundImage: NetworkImage("https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png"),
+                backgroundImage: NetworkImage(
+                    "https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png"),
               ),
               Text(
                 "Abi Farhan",
@@ -34,54 +35,41 @@ void main() {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0,
-                horizontal: 25.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(Icons.phone,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: Row(children: <Widget>[
+                  Icon(
+                    Icons.phone,
                     color: Colors.teal,
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      '+44444444444',
-                      style: TextStyle(
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    '+44444444444',
+                    style: TextStyle(
                         color: Colors.teal.shade100,
                         fontFamily: "ShipporiAntique",
-                        fontSize: 20.0
-                      ),
-                    )
-                  ]
-                ),
+                        fontSize: 20.0),
+                  )
+                ]),
               ),
-              Padding(
-                padding: const EdgeInsets.all(25.0),
-                child: Card(
+              Card(
                   color: Colors.white,
-                  margin: EdgeInsets.symmetric(vertical: 10.0,
-                  horizontal: 25.0),
-                    child: Row(
-                      children: <Widget>[
-                        Icon(Icons.email,
-                          color: Colors.teal,
-                        ),
-                        SizedBox(
-                          width: 10.0,
-                        ),
-                        Text(
-                          'abi@gmail.com',
-                          style: TextStyle(
-                            color: Colors.teal.shade100,
-                            fontFamily: "ShipporiAntique",
-                            fontSize: 20.0
-                          ),
-                        )
-                      ],
+                  margin:
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.teal,
                     ),
-
-                ),
-              )
+                    title: Text(
+                      'abi@gmail.com',
+                      style: TextStyle(
+                          color: Colors.teal.shade100,
+                          fontFamily: "ShipporiAntique",
+                          fontSize: 20.0),
+                    ),
+                  ))
             ],
           ),
 //           child: Row(
