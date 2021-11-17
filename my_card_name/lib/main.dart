@@ -55,27 +55,31 @@ void main() {
                   ]
                 ),
               ),
-              Card(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0,
-                horizontal: 25.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(Icons.email,
-                      color: Colors.teal,
+              Padding(
+                padding: const EdgeInsets.all(25.0),
+                child: Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 10.0,
+                  horizontal: 25.0),
+                    child: Row(
+                      children: <Widget>[
+                        Icon(Icons.email,
+                          color: Colors.teal,
+                        ),
+                        SizedBox(
+                          width: 10.0,
+                        ),
+                        Text(
+                          'abi@gmail.com',
+                          style: TextStyle(
+                            color: Colors.teal.shade100,
+                            fontFamily: "ShipporiAntique",
+                            fontSize: 20.0
+                          ),
+                        )
+                      ],
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      'abi@gmail.com',
-                      style: TextStyle(
-                        color: Colors.teal.shade100,
-                        fontFamily: "ShipporiAntique",
-                        fontSize: 20.0
-                      ),
-                    )
-                  ],
+
                 ),
               )
             ],
