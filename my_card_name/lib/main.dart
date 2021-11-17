@@ -32,8 +32,7 @@ void main() {
                   letterSpacing: 2.5,
                 ),
               ),
-              Container(
-                padding: EdgeInsets.all(10.0),
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0,
                 horizontal: 25.0),
@@ -56,8 +55,7 @@ void main() {
                   ]
                 ),
               ),
-              Container(
-                padding: EdgeInsets.all(10.0),
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0,
                 horizontal: 25.0),
