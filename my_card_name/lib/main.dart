@@ -35,28 +35,30 @@ void main() {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Row(children: <Widget>[
-                  Icon(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0
+                ),
+                child: ListTile(
+                  leading: Icon(
                     Icons.phone,
                     color: Colors.teal,
                   ),
-                  SizedBox(
-                    width: 10.0,
-                  ),
-                  Text(
-                    '+44444444444',
+                  title: Text(
+                    "+4444 4444444 4444444",
                     style: TextStyle(
-                        color: Colors.teal.shade100,
+                      color: Colors.teal.shade100,
                         fontFamily: "ShipporiAntique",
-                        fontSize: 20.0),
+                        fontSize: 20.0
+                    ),
                   )
-                ]),
+                ),
               ),
               Card(
                   color: Colors.white,
                   margin:
-                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                      EdgeInsets.symmetric(vertical: 10.0,
+                          horizontal: 25.0),
                   child: ListTile(
                     leading: Icon(
                       Icons.email,
