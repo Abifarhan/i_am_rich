@@ -33,7 +33,10 @@ void main() {
                 ),
               ),
               Container(
+                padding: EdgeInsets.all(10.0),
                 color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0,
+                horizontal: 25.0),
                 child: Row(
                   children: <Widget>[
                     Icon(Icons.phone,
@@ -51,6 +54,30 @@ void main() {
                       ),
                     )
                   ]
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(10.0),
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0,
+                horizontal: 25.0),
+                child: Row(
+                  children: <Widget>[
+                    Icon(Icons.email,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      'abi@gmail.com',
+                      style: TextStyle(
+                        color: Colors.teal.shade100,
+                        fontFamily: "ShipporiAntique",
+                        fontSize: 20.0
+                      ),
+                    )
+                  ],
                 ),
               )
             ],
