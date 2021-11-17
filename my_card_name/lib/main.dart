@@ -31,6 +31,15 @@ void main() {
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2.5,
                 ),
+              ),
+              Container(
+                child: Row(
+                  children: <Widget>[
+                    Icon(Icons.add_shopping_cart,
+                    size: 100.0,
+                    )
+                  ]
+                ),
               )
             ],
           ),
