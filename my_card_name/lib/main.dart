@@ -33,10 +33,22 @@ void main() {
                 ),
               ),
               Container(
+                color: Colors.white,
                 child: Row(
                   children: <Widget>[
-                    Icon(Icons.add_shopping_cart,
-                    size: 100.0,
+                    Icon(Icons.phone,
+                    color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      '+44444444444',
+                      style: TextStyle(
+                        color: Colors.teal.shade100,
+                        fontFamily: "ShipporiAntique",
+                        fontSize: 20.0
+                      ),
                     )
                   ]
                 ),
