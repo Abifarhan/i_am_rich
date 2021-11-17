@@ -34,32 +34,34 @@ void main() {
                   letterSpacing: 2.5,
                 ),
               ),
+              SizedBox(
+                  height: 20.0,
+                  width: 150.0,
+                  child: Divider(
+                    color: Colors.teal.shade100,
+                  )
+              ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(
-                  vertical: 10.0,
-                  horizontal: 25.0
-                ),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
-                  leading: Icon(
-                    Icons.phone,
-                    color: Colors.teal,
-                  ),
-                  title: Text(
-                    "+4444 4444444 4444444",
-                    style: TextStyle(
-                      color: Colors.teal.shade100,
-                        fontFamily: "ShipporiAntique",
-                        fontSize: 20.0
+                    leading: Icon(
+                      Icons.phone,
+                      color: Colors.teal,
                     ),
-                  )
-                ),
+                    title: Text(
+                      "+4444 4444444 4444444",
+                      style: TextStyle(
+                          color: Colors.teal.shade100,
+                          fontFamily: "ShipporiAntique",
+                          fontSize: 20.0),
+                    )),
               ),
+
               Card(
                   color: Colors.white,
                   margin:
-                      EdgeInsets.symmetric(vertical: 10.0,
-                          horizontal: 25.0),
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                   child: ListTile(
                     leading: Icon(
                       Icons.email,
